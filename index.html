@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<script src="https://kit.fontawesome.com/2bf0199491.js" crossorigin="anonymous"></script>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header"><b>Home</b></a></li>
+                    <li><a href="#about"><b>About</b></a></li>
+                    <li><a href="#Achievements"><b>Achievements</b></a></li>
+                    <li><a href="#Portfolio"><b>My works</b></a></li>
+                    <li><a href="#contact"><b>Contact</b></a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <!-- <font size="+5">
+                    <p style="color:rgb(220, 50, 98)"><b>Sahil Sahu</b></p>
+                </font> -->
+                <h1 style="color: rgb(0, 0, 0); font-family: 'Courier New', Courier, monospace;">Hi, I'm <span>Sahil Sahu</span>
+                    <br>from Mumbai.</h1>
+                <h2 style="color: black; font-family: 'Courier New', Courier, monospace;">I am a Machine Learning <br>enthusiast.</h2>
+            </div>
+        </div>
+    </div>
+    <!-- -------about-------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/IMG_20220501_231300_630~2.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p style="font-size: 150%;"><b>
+                            Hi, my name is Sahil Sahu.<br>
+                            I am a student of SRMIST, Kattankulathur, <br>
+                            currently pursuing B.Tech CSE with Specialization in AI & ML.<br>
+                            I am a Machine Learning enthusiast, and <br>
+                            I enjoy learning new technologies and implementing them.<br>
+                            I am interested in the field of Deep Learning, Artificial Intelligence, and Augmented Reality. 
+                            I love to travel, and love to watch Anime.</b>
+
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')"><b>Skills</b></p>
+                        <p class="tab-links" onclick="opentab('Education')"><b>Education</b></p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <!-- <li><span>UI/UX</span><br>Designing Web Interface</li> -->
+                            <li><span><b>Technical Skills</b></span><br>Python<br>Machine Learning<br>C Programming<br>C++ Programming<br>HTML<br>
+                                Data Analysis<br><br>
+                            </li>
+                            <li><span><b>Soft Skills</b></span><br>Good Communication Skills<br>Problem Solving Skills<br>Analytical Skills<br></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span><b>2025</b></span><br>B.Tech CSE - AI & ML <br>SRM Institute of Science and Technology, Kattankulathur</li>
+                            <li><span><b>2021</b></span><br>Board Of Intermediate<br> Rajhans Vidyalaya, Andheri(W)</li>
+                            <li><span><b>2019</b></span><br>High School<br>R.N. Podar School, Santacruz(w)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!------------------Achievements---------------->
+<script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+    <div id="Achievements">
+        <div class="container">
+            <h1 class="sub-title">Achievements</h1>
+            <div class="Achievements-list">
+                <div>
+                    <iconify-icon icon="simple-icons:hackerrank" width="80" height="80"></iconify-icon>
+                    <h2>Hackerrank</h2>
+                    <p>Achieved 4 star rating in C Programming</p>
+                    <a href="https://www.hackerrank.com/sahil_sanjay_sa1">Learn more</a>
+                </div>
+                <div>
+                    <iconify-icon icon="simple-icons:codechef" width="80" height="80"></iconify-icon>
+                    <h2>Code Chef</h2>
+                    <p>Achieved 1 star rating on code chef</p>
+                    <a href="https://www.codechef.com/users/srmistk_338">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-computer"></i>
+                    <h2>Machine Learning</h2>
+                    <p>The Course gave me a better understanding of Machine Learning and gave me a deeper insight of the working of algorithms.</p>
+                    <a href="https://drive.google.com/file/d/1PMtN3p8UbXnckNCHWZp8F2NQva5fxw0L/view?usp=sharing">Learn more</a>
+                </div>
+            </div>
+            <div class="Achievements-list-2">
+                <div>
+                    <i class="fa-solid fa-c"></i>
+                    <h2>C Programming</h2>
+                    <p>SRM Elab Certification for completion of 300 problems. <br>Three Certificates for 3 level of problems.</p>
+                    <a href="https://drive.google.com/file/d/1h-HFMAJ1DWD0Ntm7Eu_w9O1r-mwV-bZv/view?usp=sharing">Level 1 certificate</a>
+                    <a href="https://drive.google.com/file/d/1aNlgq3swKM7xyDY2M3VTml9wIcgEEUo1/view?usp=sharing">Level 2 certificate</a>
+                    <a href="https://drive.google.com/file/d/1JOPvGPaUmvCF6bqICJXibct2xkqC9tlh/view?usp=sharing">Level 3 certificate</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Python Programming</h2>
+                    <p>This course was provided by Michigan University by Dr. Chuck</p>
+                    <a href="https://www.codechef.com/users/srmistk_338">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Matlab Certification</h2>
+                    <p></p>
+                    <a href="https://www.codechef.com/users/srmistk_338">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+<!------------------Portfolio---------------->
+<div id="Portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Works </h1>
+        <div class="Work-List">
+            <div class="Work">
+                <img src="images/house icon.png">
+                <div class="layer">
+                    <h3><b>House Price Prediction</b></h3>
+                    <p><i>This Project Predicts the price of a house according to the California's house price dataset.</i></p>
+                    <a href="https://github.com/SahilSahu73/California-Housing-Price-Prediction-using-Linear-Regression"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="Work">
+                <img src="images/calendar.png">
+                <div class="layer">
+                    <h3><b>Calendar</b></h3>
+                    <p><i>The Programme allows you to print the calendar for <br>the respected year</i></p>
+                    <a href="https://github.com/Bhageerath-Kalva/print_calendar"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="Work">
+                <img src="images/fashion mnist.png">
+                <div class="layer">
+                    <h3><b>Fashion-MNIST Image Classification</b></h3>
+                    <p><i>The Programme allows us to classify images <br>using convolutional Neural Networks.</i></p>
+                    <a href="https://github.com/SahilSahu73/Fashion-MNIST_Kaggle"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/SahilSahu73" class="btn">See More</a>
+    </div>
+</div>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class = "sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>ss8826@srmist.edu.in</p>
+                <p><i class="fa-solid fa-square-phone"></i>+91 8879004352</p>
+                <div class="social-icons">
+                    <a href="https://m.facebook.com/profile.php?id=100010382440163"><i class="fa-brands fa-facebook"></i></a>  
+                    <a href="https://twitter.com/Sahil_Sahu_0301"><i class="fa-brands fa-twitter-square"></i></a>  
+                    <a href="https://www.instagram.com/_sahil_0301/"><i class="fa-brands fa-instagram"></i></a>  
+                    <a href="https://www.linkedin.com/in/sahil-sahu-602669221/"><i class="fa-brands fa-linkedin"></i></a>  
+                    <a href="https://github.com/SahilSahu73"><i class="fa-brands fa-github"></i></a> 
+                </div>
+                <a href="images/cV1.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right"> 
+                 <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <pi><i class="fa-solid fa-hand-point-right"></i> Copyright © Sahil Sahu <i class="fa-solid fa-hand-point-left"></i></pi>
+    </div>
+</div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link")
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzpj7v73lD5RcdfVByXRoK3Zkz4ltUIxl0itjhMSVU1PmK2QdzRecYn56mCDMmfg6U/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message Sent Successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },2000)
+                form.reset()
+            })
+            .catch(error => console.error('Submission Error!', error.message))
+        })
+      </script>
+</body>
+</html>
